@@ -110,7 +110,7 @@ export default function PayoutThreshold() {
       <Textarea
 
         placeholder="Add notes here..."
-        className="`min-h-[120px]` resize-none border-sky-300 bg-sky-100"
+        className="min-h-30 resize-none border-sky-300 bg-sky-100"
         value={notes}
         onChange={(e) => setNotes(e.target.value)}
 

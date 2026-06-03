@@ -43,7 +43,7 @@ export default function ContributionHistory() {
         Last 6 months of activity
       </p>
 
-      <div className="mt-6 w-full `h-[180px]` `sm:h-[200px]`">
+      <div className="mt-6 w-full h-45 sm:h-50">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data}>
             <XAxis
